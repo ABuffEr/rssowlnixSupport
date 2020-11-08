@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'rssowlnixSupport' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'rssowlnixSupport' '2.0'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2020-11-08 11:01+0100\n"
+"PO-Revision-Date: 2020-11-08 11:04+0100\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Alberto Buffolino <a.buffolino@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.3\n"
+
+#: addon\appModules\rssowlnix.py:15
+msgid "Unread, "
+msgstr "Non letto, "
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:17
+msgid "RSSOwlnix Support"
+msgstr "RSSOwlnix Support"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:20
+msgid ""
+"Improves the accessibility of RSSOwlnix, an updated version of RSSOwl feed "
+"reader."
+msgstr ""
+"Migliora l'accessibilità di RSSOwlnix, una versione aggiornata del feed "
+"reader RSSOwl."
