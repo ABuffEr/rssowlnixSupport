@@ -20,7 +20,7 @@ class AppModule(AppModule):
 		super(AppModule, self).__init__(processID, appName)
 
 	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
-		if obj.role == ct.ROLE_TREEVIEWITEM and obj.windowStyle == 1445057189:
+		if obj.role == ct.ROLE_TREEVIEWITEM and obj.windowStyle not in (1442923045, 1446068773):
 			clsList.insert(0, NewsItem)
 
 class NewsItem(TreeViewItem):
@@ -42,5 +42,5 @@ class NewsItem(TreeViewItem):
 			self.name = super().name
 		super(NewsItem, self).event_gainFocus()
 
-	def event_typedCharacter(self):
-		self.event_gainFocus()
+#	def event_typedCharacter(self):
+#		self.event_gainFocus()

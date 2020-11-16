@@ -14,4 +14,4 @@ This is an extremely straightforward add-on: it simply imports the great work do
 
 
 [1]: https://github.com/Xyrio/RSSOwlnix
-[2]: https://raw.githubusercontent.com/ABuffEr/rssowlnixSupport/master/packages/rssowlnixSupport-2.0.nvda-addon
+[2]: https://raw.githubusercontent.com/ABuffEr/rssowlnixSupport/master/packages/rssowlnixSupport-2.1.nvda-addon
