@@ -13,6 +13,8 @@ import textInfos
 initTranslation()
 
 unreadLabel = _("Unread, ")
+# for pre-2022.1 compatibility
+TREEVIEWITEM = ct.Role.TREEVIEWITEM if hasattr(ct, "Role") else ct.ROLE_TREEVIEWITEM
 
 class AppModule(AppModule):
 
@@ -20,7 +22,7 @@ class AppModule(AppModule):
 		super(AppModule, self).__init__(processID, appName)
 
 	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
-		if obj.role == ct.ROLE_TREEVIEWITEM and obj.windowStyle not in (1442923045, 1446068773):
+		if obj.role == TREEVIEWITEM and obj.windowStyle not in (1442923045, 1446068773):
 			clsList.insert(0, NewsItem)
 
 class NewsItem(TreeViewItem):
@@ -41,6 +43,3 @@ class NewsItem(TreeViewItem):
 		else:
 			self.name = super().name
 		super(NewsItem, self).event_gainFocus()
-
-#	def event_typedCharacter(self):
-#		self.event_gainFocus()

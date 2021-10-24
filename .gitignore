@@ -6,4 +6,5 @@ addon/doc/en/
 *.mo
 *.pot
 *.py[co]
+*.nvda-addon
 .sconsign.dblite
